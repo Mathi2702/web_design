@@ -1,21 +1,32 @@
 
 
-* {
-    margin : 50;
-    padding: 2px;
-}
-
-.header-container{
-    max-width: 1500px;
-    margin: 0 auto;
-    border-bottom:1px solid #ccc;
-    padding:5px
-}
-
+/*hovering overnav bar*/
 .navbar-nav a {
-    color: purple;
-  }
+        color :rgb(106, 205, 106)
+      }
+.navbar-nav a:hover {
+        color: green;
+      }
+
+.btn {
+        background-color: rgb(106, 205, 106);
+        border-color: rgb(106, 205, 106);
+      }
+
+.card-img-top   {
+        height:200%
+}      
+
+
+
   
-  .navbar-nav a:hover {
-    color:mediumslateblue ;
-  }
+ 
+
+
+
+
+
+
+  
+ 
+ 
