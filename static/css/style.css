@@ -160,8 +160,27 @@ nav {
         font-size: 48px;
 }
 
+.grid-system {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        justify-content: space-between; 
+        display: grid;
+        
+        gap: 10px;
+      }
+      
+.grid-item {
+        background-color: rgb(106, 205, 106);
+        padding: 10px;
+        text-align: center;
+        border: 2px rgb(106, 205, 106);
+        border-radius: 10px;
+        
+      }
 
-
+body {
+        margin-bottom: 50px;
+      }
   
  
  
