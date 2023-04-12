@@ -1,0 +1,165 @@
+/*nav bar fixed and alignment*/
+header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+      }
+      
+
+      
+nav {
+        background-color: #fff;
+        
+      }
+      
+.navbar-brand {
+        padding: 0;
+      }
+      
+      
+.nav-item {
+        padding: 0 10px;
+      }
+      
+.btn {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 0;
+      }      
+      
+      
+
+/*hovering overnav bar*/
+.navbar-nav a {
+        color :rgb(106, 205, 106);
+        font-size: 0.975rem;
+        font-weight: 600;
+
+}
+.navbar-nav a:hover {
+        color: green;
+      }
+
+.btn {
+        background-color: rgb(106, 205, 106);
+        border-color: rgb(106, 205, 106);
+      }
+
+.card{
+        background-color:rgb(135, 214, 135);
+        border-color: black;
+        border-style:ridge;
+}
+
+.card-img-top   {
+        height:200%
+}      
+
+
+.content{
+        margin-top: 200px;
+
+}
+
+.benifit-content{
+        margin-top: 100px;
+}
+
+.row{
+        margin-top: 50px;
+}
+
+.image-box1{
+        margin-top: 200px;
+}
+
+.parent {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        transform: translateX(-10px);
+      }
+
+      
+.rect {
+        width: 300px;
+        height: 200px;
+        margin-left:100px;
+        margin-top:-20px !important;
+        background-color: rgb(106, 205, 106);
+      }
+      
+.image-right-top {
+        position: absolute;
+        width:250px;
+        height:170px;
+        top: -50px;
+        right: 0;
+      }
+      
+.image-left-top {
+        position: absolute;
+        top: 115px;
+        width:250px;
+        height:170px;
+        left: 0;
+      }
+
+.squares {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 80px;
+        height: 400px;
+        width: 400px;     
+      }
+      
+.box1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+      }
+      
+.box2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+      }
+      
+.box3 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+      }
+      
+      .box4 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+      }
+.box1,
+.box2,
+.box3,
+.box4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+
+
+
+  
+ 
+ 
