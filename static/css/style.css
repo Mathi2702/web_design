@@ -1,9 +1,43 @@
+/*nav bar fixed and alignment*/
+header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+      }
+      
 
+      
+nav {
+        background-color: #fff;
+        
+      }
+      
+.navbar-brand {
+        padding: 0;
+      }
+      
+      
+.nav-item {
+        padding: 0 10px;
+      }
+      
+.btn {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 0;
+      }      
+      
+      
 
 /*hovering overnav bar*/
 .navbar-nav a {
-        color :rgb(106, 205, 106)
-      }
+        color :rgb(106, 205, 106);
+        font-size: 0.975rem;
+        font-weight: 500;
+
+}
 .navbar-nav a:hover {
         color: green;
       }
@@ -13,9 +47,29 @@
         border-color: rgb(106, 205, 106);
       }
 
+.card{
+        background-color:rgb(135, 214, 135);
+        border-color: black;
+        border-style:ridge;
+}
+
 .card-img-top   {
         height:200%
 }      
+
+
+.content{
+        margin-top: 200px;
+
+}
+
+.benifit-content{
+        margin-top: 100px;
+}
+
+.row{
+        margin-top: 50px;
+}
 
 
 
