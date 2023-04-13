@@ -1,13 +1,12 @@
-/*nav bar fixed and alignment*/
+/*style page for index page*/
+/*header - nav bar fixed and alignment*/
 header {
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 9999;
       }
-      
-
-      
+            
 nav {
         background-color: #fff;
         
@@ -18,27 +17,25 @@ nav {
       }
       
       
-.nav-item {
+#hnav > .nav-item {
         padding: 0 10px;
       }
       
-.btn {
+/*.btn {
         background-color: #007bff;
         color: #fff;
         border: none;
         border-radius: 0;
-      }      
-      
-      
+      }     */  
 
 /*hovering overnav bar*/
-.navbar-nav a {
+ .navbar-nav a {
         color :rgb(106, 205, 106);
         font-size: 0.975rem;
         font-weight: 600;
 
 }
-.navbar-nav a:hover {
+ .navbar-nav a:hover {
         color: green;
       }
 
@@ -47,6 +44,7 @@ nav {
         border-color: rgb(106, 205, 106);
       }
 
+/*main */
 .card{
         background-color:rgb(135, 214, 135);
         border-color: black;
