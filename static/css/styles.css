@@ -1,0 +1,45 @@
+/*style page for contact us page*/
+/*header - nav bar fixed and alignment*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+        
+nav {
+    background-color: #fff;
+    
+  }
+  
+.navbar-brand {
+    padding: 0;
+  }
+  
+  
+#hnav > .nav-item {
+    padding: 0 10px;
+  }
+  
+      
+
+/*hovering overnav bar*/
+.navbar-nav a {
+    color :rgb(106, 205, 106);
+    font-size: 0.975rem;
+    font-weight: 600;
+
+}
+.navbar-nav a:hover {
+    color: green;
+  }
+
+.btn {
+    background-color: rgb(106, 205, 106);
+    border-color: rgb(106, 205, 106);
+}
+
+/*section-style*/
+.form-section{
+     padding-top:100px;
+  }
