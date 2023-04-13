@@ -34,12 +34,20 @@ nav {
     color: green;
   }
 
-.btn {
-    background-color: rgb(106, 205, 106);
-    border-color: rgb(106, 205, 106);
-}
+
+
 
 /*section-style*/
 .form-section{
      padding-top:100px;
+  }
+
+.btn{
+    background-color: rgb(106, 205, 106);
+    border-color: rgb(106, 205, 106);
+}
+
+.btn:hover {
+    background-color: green;
+    border-color: green;
   }
